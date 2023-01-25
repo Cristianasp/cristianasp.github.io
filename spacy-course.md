@@ -25,8 +25,8 @@ Esses são alguns comentários dos desafios desta tradução de conteúdo técni
 
 "Segue o fio" ;-)
 
-![](https://cristiansp.github.io/img/fofoca.png)
-https://unsplash.com/@benwhitephotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+![](img/fofoca.png)
+
 
 
 #### Token  
