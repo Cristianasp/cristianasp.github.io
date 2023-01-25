@@ -1,14 +1,12 @@
 # cristianasp.github.io
 
-I am testing because I already work with markup files
 
----
-
-(link 1)[www.google.com]
-(link 2)[www.aws.com]
-
-```
-this is code
+```python
+print("hello world!")
 ```
 
-se **ya** all folks !
+Here is my personal blog about my projects and experiences.
+
+[Kaggle: Brazilian Cities Dataset ](dataset-brazilian-cities)
+
+
