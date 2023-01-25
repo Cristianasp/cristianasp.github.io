@@ -1,13 +1,14 @@
 ## CIDADES BRASILEIRAS
 UM CONJUNTO DE DADOS
 
-#DATASETS #BRAZILIAN-CITIES #DADOSGOVBR
+`#DATASETS` `#BRAZILIAN-CITIES` `#DADOSGOVBR`
 
-![[img/brazilcities.png]]
+![brasil](https://cristianasp.githubio/img/brazilcities.png)
 
-Tudo começou com um projeto de expansão na empresa que eu trabalhava. Precisávamos identificar novas cidades e regiões para expandir a operação. Eu já tinha feito um projeto similiar em outra empresa que trabalhei, mas naquela época usamos poucas informações econômicas e sociais das cidades, e tomamos decisões com os dados internos e das empresas concorrentes.
 
-Então fui procurar fontes de informações sobre as cidades brasileiras. Não encontrei nada pronto e disponível gratuitamente. Já tinha até recebido ofertas de bases de dados com informações para tomada de decisão, e os valores eram sempre salgados.
+Tudo começou com um projeto de expansão na empresa que eu trabalhava. Precisávamos identificar novas cidades e regiões para expandir a operação. Na época usamos poucas informações econômicas e sociais das cidades, e tomamos decisões com os dados internos e das empresas concorrentes.
+
+Fiquei com isso na cabeça.... Então fui procurar fontes de informações sobre as cidades brasileiras. Não encontrei nada pronto e disponível gratuitamente. Já tinha até recebido ofertas de bases de dados com informações para tomada de decisão, e os valores eram sempre salgados.
 
 Decidi então me divertir montando uma base útil com os dados disponíveis na Internet.
 
