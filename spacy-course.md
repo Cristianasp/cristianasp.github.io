@@ -1,8 +1,6 @@
+## NLP WITH SPACY
 
-## PLN AVANÇADO COM SPACY
-Processamento avançado de Linguagem Natural com a biblioteca spaCy.
-
-UM CURSO
+Curso processamento avançado de Linguagem Natural com a biblioteca spaCy.
 
 `#PLN` `#NLP` `#SPACY_IO`
 
@@ -26,7 +24,7 @@ Esses são alguns comentários dos desafios desta tradução de conteúdo técni
 "Segue o fio" ;-)
 
 ![](img/fofoca.png)
-
+##### foto de unsplash.com/@benwhitephotography
 
 
 #### Token  

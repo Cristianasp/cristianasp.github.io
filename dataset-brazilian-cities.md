@@ -1,10 +1,11 @@
-## CIDADES BRASILEIRAS
+## BRAZILIAN CITIES 
+
 UM CONJUNTO DE DADOS
 
 `#DATASETS` `#BRAZILIAN-CITIES` `#DADOSGOVBR`
 
 ![brasil](img/brazilcities.png)
-
+#### foto de unsplash.com/@serjosoza
 
 Tudo começou com um projeto de expansão na empresa que eu trabalhava. Precisávamos identificar novas cidades e regiões para expandir a operação. Na época usamos poucas informações econômicas e sociais das cidades, e tomamos decisões com os dados internos e das empresas concorrentes.
 

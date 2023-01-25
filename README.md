@@ -1,11 +1,24 @@
 # cristianasp.github.io
 
+My personal blog about my projects and experiences.
+
 ```python
 print("hello world!")
 ```
 
-Here is my personal blog about my projects and experiences.
+This a list of some stuff that I have been doing lately.
 
-[Kaggle: Brazilian Cities Dataset ](dataset-brazilian-cities)
+```python
+for article in articles:
+    print(f"{article.date}:{article.theme}:{article.title}{article.link}")
+```
 
-[PLN avançado com Spacy](spacy-course)
+[2021-2022: Spacy : Curso PLN avançado com Spacy](spacy-course)
+
+[2019 : Kaggle: Brazilian Cities Dataset ](dataset-brazilian-cities)
+
+[2019 : Spacy : a python notebook](spacy-notebook)
+
+
+- [About me](about-me)
+
