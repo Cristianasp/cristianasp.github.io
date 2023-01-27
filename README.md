@@ -19,6 +19,8 @@ for article in articles:
 
 [2019 : Spacy : a python notebook](spacy-notebook)
 
+---
 
-- [About me](about-me)
+
+[About me](about-me)
 
