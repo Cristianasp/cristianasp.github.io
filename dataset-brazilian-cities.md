@@ -1,8 +1,13 @@
+---
+title: "Brazilian Cities"
+date: 2019
+tags: DATASETS BRAZILIAN-CITIES DADOSGOVBR
+---
+
+
 ## BRAZILIAN CITIES 
 
 UM CONJUNTO DE DADOS
-
-`#DATASETS` `#BRAZILIAN-CITIES` `#DADOSGOVBR`
 
 ![brasil](img/brazilcities.png)
 #### foto de unsplash.com/@serjosoza
