@@ -1,6 +1,10 @@
-## NLP WITH SPACY
+[BACK TO INDEX](https://cristianasp.github.io)
 
-Curso processamento avançado de Linguagem Natural com a biblioteca spaCy.
+---
+
+# NLP WITH SPACY
+
+## Curso processamento avançado de Linguagem Natural com a biblioteca spaCy.
 
 `#PLN` `#NLP` `#SPACY_IO`
 

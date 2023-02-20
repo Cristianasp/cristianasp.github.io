@@ -1,13 +1,12 @@
----
-title: "Brazilian Cities"
-date: 2019
-tags: DATASETS BRAZILIAN-CITIES DADOSGOVBR
+[BACK TO INDEX](https://cristianasp.github.io)
+
 ---
 
+# BRAZILIAN CITIES 
 
-## BRAZILIAN CITIES 
+## UM CONJUNTO DE DADOS
+## `#DATASETS #BRAZILIAN-CITIES #DADOSGOVBR`
 
-UM CONJUNTO DE DADOS
 
 ![brasil](img/brazilcities.png)
 #### foto de unsplash.com/@serjosoza
