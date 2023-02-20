@@ -98,5 +98,9 @@ Particularmente, sempre achei esquisito "executar um laço do código", que é a
 #### Overfitting and Underfitting  
 O processo de treinamento de um  modelo estatístico pode levá-lo a overfitting ou underfitting. O primeiro ocorre quando o treinamento é feito por demasiado, então o modelo se ajusta muito aos dados de treinamento e perde a capacidade de generalização com novos dados. O segundo é o contrário, quando o treinamento é pouco, e o modelo ainda não aprendeu os aspectos que permitem fazer previsões a partir dos dados. Encontrei a tradução de sobreajuste e subajuste. Entendo que são bons termos para se usar.
 
+---
 
+[BACK TO INDEX](https://cristianasp.github.io)
+
+---
 

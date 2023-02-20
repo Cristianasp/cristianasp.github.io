@@ -4,7 +4,7 @@
 print("hello world!")
 ```
 
-##  💡 My personal blog about my projects and experiences.
+### My personal blog about my projects and experiences.
 
 ---
 
