@@ -3,7 +3,7 @@
 ---
 
 # Barcode Reader API
-
+## 
 A Python wrapper of [ZXing library](https://github.com/zxing/zxing)
 
 A python API that wraps a java program that extracts barcode from images.
@@ -36,11 +36,11 @@ The main goal of the Barcode Reader API is to receive one image or several image
 
 Here is an example of an image:
 
-![[img/guarana.jpg]]
+![](img/guarana.jpg)
 
 And the API running and extracting the barcode from the image:
 
-![[img/extract-guarana.png]]
+![](img/extract-guarana.png)
 
 
 Here is the solution that I have developed: the API writen in python receives a request with the images, performs some tricks in the images (for better recognition), saves the images in a temporary directory, and calls the java library (via subprocess.Popen), that reads the file, extracts the barcode and returns the results in stdout. The python subprocess rotine inspects the process stdout, verifyes stderr and returns the results in the API response.
@@ -87,7 +87,7 @@ And the `barcode` endpoint has a depency that validates if the user is authentic
 
 Ah, `me` endpoint is just and endpoint to check user information.
 
-![[img/auth.png]]
+![](img/auth.png)
 
 
 ### Put it in a container
@@ -148,23 +148,23 @@ I used Sentry (www.sentry.com) for capturing errors. Sentry does not recommends 
 
 Here are examples of errors that were triggered and captured by sentry:
 
-![[img/exception-1.png]]
+![](img/exception-1.png)
 
 
-![[img/exception-3.png]]
+![](img/exception-3.png)
 
 
 I also used sentry to measure transaction time. I created metrics for extracting barcode from each image, and extracting the barcode from a list of images (5 images aprox). That is implemented using `tasks` in sentry.
 
-![[img/extract-one-image.png]]
+![](img/extract-one-image.png)
 
-![[img/extract-several-image.png]]
+![](img/extract-several-image.png)
 
 Good news was that that the eco dyno was performing the same as running in my ubuntu desktop.
 
 Overall performance:
 
-![[img/performance.png]]
+![](img/performance.png)
 
 But Sentry is **not** recommended for logging. 
 
@@ -182,8 +182,7 @@ Eventualy I found a add-on in Heroku, called Sumologic, just selected it and... 
 
 Here is an example of the logs in sumologic:
 
-![[img/log-sumologic-1.png]]
-
+![](img/log-sumologic-1.png)
 
 ## 🎁 Wrapping-up
 
@@ -220,3 +219,9 @@ So my goal was achieved: I was able to setup an API that processes images and re
 - docker
 - docker-compose
 - heroku
+
+---
+
+[BACK TO INDEX](https://cristianasp.github.io)
+
+---

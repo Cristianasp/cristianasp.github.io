@@ -1,3 +1,7 @@
+[BACK TO INDEX](https://cristianasp.github.io)
+
+---
+
 ## ABOUT ME
 
 Vivi uma infância e adolescência sem internet. Lá pelos idos de 80, curiosa pra entender como funcionava o tal computador, fui estudar Engenharia de Computação na Unicamp. Enquanto estava na Faculdade usei o primeiro PC - personal computer. Mandava email só para outras instituições de ensino pela ARPANET.... isso faz tempo !! Aprendi Unix. Programei em Pascal, C, C++, assembler, LISP e afins.
