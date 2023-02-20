@@ -182,7 +182,7 @@ Eventualy I found a add-on in Heroku, called Sumologic, just selected it and... 
 
 Here is an example of the logs in sumologic:
 
-![](img/log-sumologic-1.png)
+![](img/log-sumologic.png)
 
 ## 🎁 Wrapping-up
 
@@ -191,17 +191,17 @@ So my goal was achieved: I was able to setup an API that processes images and re
 
 ## 😎 Project challenges:
 
-- [ ] find code that extracts barcode from images
-- [ ] run java from python
-- [ ] set up an api using fastapi
-- [ ] upload and process images
-- [ ] delete alll processed images using async background tasks
-- [ ] api security: autentication and authorization flow with oauth
-- [ ] create, renew and revoke: access tokens & refresh tokens
-- [ ] observability: have logs, metrics and traces
-- [ ] tools to inspect logs
-- [ ] easy deployment with docker image
-- [ ] free or cheap cost for hosting 
+- find code that extracts barcode from images
+- run java from python
+- set up an api using fastapi
+- upload and process images
+- delete alll processed images using async background tasks
+- api security: autentication and authorization flow with oauth
+- create, renew and revoke: access tokens & refresh tokens
+- observability: have logs, metrics and traces
+- tools to inspect logs
+- easy deployment with docker image
+- free or cheap cost for hosting 
 
 
 ## 🛠 Technical resources:
