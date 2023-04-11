@@ -19,6 +19,8 @@ for article in articles:
 
 👉🏻 2023 : [ML-AI : Um apanhado sobre Machine Learning e Inteligência Artificial](ml-ai)
 
+👉🏻 2023 : [chat-GPT by Chat-GPT](chat_GPT-by-himself)
+
 👉🏻 2023 : [Python : A Barcode Reader API](fastapi-java)
 
 👉🏻 2021-2022 : [Spacy : Curso PLN avançado com Spacy](spacy-course)
