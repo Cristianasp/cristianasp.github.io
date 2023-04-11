@@ -85,3 +85,9 @@ ChatGPT is capable of taking into consideration more than just the previous inpu
 During training, the model is typically trained on sequences of text that are several sentences long, which allows it to learn to attend to contextual information beyond just the most recent input sequence. Similarly, during inference, the model can attend to any part of the input sequence it deems relevant, including previous input sequences.
 
 However, the specific number of previous input sequences that ChatGPT takes into consideration during inference can vary depending on the specific context and task at hand. In some cases, it may only be necessary to consider the most recent input sequence, while in other cases, it may be necessary to consider several previous input sequences to properly understand the context and generate an accurate response. The model dynamically determines the optimal context to consider during inference based on the input it receives and the task it is being asked to perform.
+
+---
+
+[BACK TO INDEX](https://cristianasp.github.io)
+
+---

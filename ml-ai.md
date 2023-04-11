@@ -1,4 +1,5 @@
 # Um apanhado de Machine Learning & Artificial Inteligence 
+
 Esse artigo é base para um bate-papo que realizei com alguns professores de uma escola de negócios no Brasil.
 
 ![](img/machine-learning-2.png)
