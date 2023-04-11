@@ -79,9 +79,9 @@ At that moment there was only one user (myself), so I stored my user information
 Regarding the refresh tokens, I implemented refresh token rotation, meaning that a refresh token can be used only once. Most implementations to revoke tokens or revoke refresh tokens that I have read about are based on a negative list, meaning that they have the revoked tokens in a list.  I decided to implement in a simpler way, storing the refresh tokens with the user information and removing them when they were consumed. In more complex applications, token management should be implemented in a redis database or a no-sql database with automatic expiration, but that is not the case here.
 
 So I ended up with 3 endpoints to implement security:
-- [ ] `token` : user logins and receives access and refresh token
-- [ ] `refresh` : application gets new tokens from refresh token
-- [ ] `logout` : clears all user tokens
+-  `token` : user logins and receives access and refresh token
+-  `refresh` : application gets new tokens from refresh token
+-  `logout` : clears all user tokens
 
 And the `barcode` endpoint has a depency that validates if the user is authenticated.
 
