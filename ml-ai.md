@@ -237,11 +237,11 @@ Essa função é convexa, acredite.
 
 O que queremos fazer ? Nós queremos encontrar valores dos coeficientes da função cujo resultado calculado seja o mais próximo do resultado real, ou seja, queremos minimizar o erro.
 
-**Assim chegamos ao objetivo do algoritmo de machine learning, que é resolver um problema de minimização  / otimização.  
+**Assim chegamos ao objetivo do algoritmo de machine learning, que é resolver um problema de minimização  / otimização.** 
 
 E por isso precisamos de uma função erro que tenha um valor mínimo. Abaixo um exemplo da visão tridimensional de uma função com duas variáveis.
 
-![](img/@ 03 Machine Learning/01 Cursos-Palestras/Curso-Coursera-ML-Andrew-NG/img/01-10.png)
+![](img/01-10.png)
 
 
 Mas como encontrar os valores dos coeficientes da função que minimizem a função erro? O algoritmo amplamente utilizado em Machine Learning chama-se **Gradient Descent**. 
@@ -649,7 +649,7 @@ Sim! Chegamos no chatGPT.
 
 O GPT é um Generative Pre-trained Transformer (GPT).
 
-![](img/@ 04 NLP/02 Modelos/img/chatgpt.png)
+![](img/chatgpt.png)
 
 
 O processo de treinamento do GPT inclui uma etapa de treinamento como um modelo de linguagem.
@@ -660,11 +660,12 @@ E uma segunda etapa chamada Reinforcement Learning from Human Feedback (RLHF), n
 
 Essa segunda etapa e outras estratégias que foram aplicadas ao modelo são conhecidas como "alinhamento e segurança".
 
-![](img/@ 05 Portifolio/Blog/img/gpt-perf.png)
+![](img/gpt-perf.png)
 	fonte: https://arxiv.org/abs/2303.08774
 
 Perguntei para o chatGPT como é seu processo de treinamento e inferência e ele respondeu. Tem bastante chance da resposta estar correta: 
-[[05 Blog ChatGPT-by-ChatGPT)
+
+[chat-GPT by chat-GPT](chat-GPT-by-himself)
 
 ---
 
@@ -701,14 +702,17 @@ https://garymarcus.substack.com/p/ai-risk-agi-risk
 
 Europol:
 		Phishing & online fraud can be created faster, much more authentically, & at significantly increased scale. [...] LLMs can be abused ..to mislead potential victims into placing their trust in the hands of criminal actors. [...] May facilitate terrorist activities.
+
 https://www.europol.europa.eu/media-press/newsroom/news/criminal-use-of-chatgpt-cautionary-tale-about-large-language-models
 
 Sobre Alinhamento (Jascha Sohl-Dickstein - Google Brain):
 		The more intelligent an agent is, the less coherent its behavior tends to be. Colloquially: getting smarter makes you a hotter mess.
+
 https://sohl-dickstein.github.io/2023/03/09/coherence.html
 
 The Waluigi effect (Cleo Leonardo, 3/3/2023):
 Disserta sobre o papel decisivo dos "prompts", que podem ser perguntas diretas ou elogios e diálogos para serem preenchidos pelo chatGPT, e o qual frágil parece ser o uso de RLHF no alinhamento.
+
 https://www.lesswrong.com/posts/D7PumeYTDPfBTp3i7/the-waluigi-effect-mega-post
 
 Particularmente, considero ser o maior perigo atual o uso indiscriminado sem o entendimento das restrições, perigos e falhas envolvidos.
@@ -719,13 +723,13 @@ HuggingFace lança o chat conectado ao LLM e modelos especializados:
 https://arxiv.org/abs/2303.17580 - 30/03/2023
 		Considerando que os grandes modelos de linguagem (LLMs) tem uma capacidade excepcional em atividades relacionadas a linguagem, como  compreensão, geração, interação e raciocínio , defendemos que os LLMs poderiam atuar como um controlador para gerenciar modelos de IA existentes para resolver tarefas complicadas de IA e a linguagem poderia ser uma interface genérica para capacitar isso.
 
-![](img/@ 05 Portifolio/Blog/img/hug-gpt.jpeg)
+![](img/hug-gpt.jpeg)
 
 OpenAi lança seus plugins:
 https://openai.com/blog/chatgpt-plugins - 23/03/2023
 		Os desenvolvedores de plugins na nossa lista de espera podem usar nossa documentação para criar um plugin para o ChatGPT. Os primeiros plugins foram criados pela Expedia, FiscalNote, Instacart, KAYAK, Klarna, Milo, OpenTable, Shopify, Slack, Speak, Wolfram e Zapier.
 
-![](img/@ 04 NLP/02 Modelos/img/openai-plugins.png)
+![](img/openai-plugins.png)
 
 ---
 
