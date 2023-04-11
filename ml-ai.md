@@ -3,7 +3,7 @@ Esse artigo é base para um bate-papo que realizei com alguns professores de uma
 
 ![](img/machine-learning-2.png)
 
-	imagem produzida com inteligência artificial
+  imagem produzida com inteligência artificial
 
 ---
 
@@ -79,6 +79,7 @@ cs.CV: Vision and Patter Recognition https://arxiv.org/list/cs.CV/recent
 cs.HC: Human-Computer Interaction https://arxiv.org/list/cs.HC/recent
 
 cs.LG: Machine Learning https://arxiv.org/list/cs.LG/recent
+
 
 
 ---
@@ -167,7 +168,7 @@ Exemplos: agrupar usuários de redes sociais em perfis semelhantes, agrupar noti
 
 ![](img/singing.png)
 
-"A vintage image of one man e one woman singing in an antique microphone, each one holding its own microphone"
+  "A vintage image of one man e one woman singing in an antique microphone, each one holding its own microphone"
 
 # Aplicações para Reinforced Learning (Aprendizado por reforço 
 
@@ -178,7 +179,6 @@ Ou, em mais detalhe:
 "Reinforcement Learning (RL) é a ciência da tomada de decisão. Trata-se de aprender o comportamento ideal em um ambiente para obter a máxima recompensa. Esse comportamento ideal é aprendido através de interações com o ambiente e observações de como ele responde, semelhante às crianças que exploram o mundo ao seu redor e aprendem as ações que as ajudam a alcançar um objetivo.
 
 Na ausência de um supervisor, o aluno deve descobrir de forma independente a sequência de ações que maximizam a recompensa. Esse processo de descoberta é semelhante a uma pesquisa de tentativa e erro. A qualidade das ações é medida não apenas pela recompensa imediata que eles retornam, mas também pela recompensa atrasada que eles podem buscar. Como ele pode aprender as ações que resultam em eventual sucesso em um ambiente invisível sem a ajuda de um supervisor, o aprendizado por reforço é um algoritmo muito poderoso"
-
 
 
 ![](img/Reinforcement_learning.png)
@@ -299,7 +299,6 @@ Um bom treinamento (função ideal e função encontrada):
 
 ![](img/fastai_overff_81_0.png)
 
-
 	imagens extraidas de: https://www.kaggle.com/code/jhoward/getting-started-with-nlp-for-absolute-beginners
 
 Portanto os dados de treinamento são extremamente importantes em machine learning. Dados enviesados levam a modelos enviesados. Dados com pouca variação levam a um modelo que não representa a realidade. E modelos treinados erroneamente são bons para os dados de treinamento e péssimos para novas previsões.
@@ -339,6 +338,7 @@ O neurônio digital possui diversas variáveis de entrada, uma função de "ativ
 ![](img/comparison-nn--human.png)
 
 	fonte da imagem: https://www.researchgate.net/publication/339446790_Using_a_Data_Driven_Approach_to_Predict_Waves_Generated_by_Gravity_Driven_Mass_Flows
+
 
 Fazendo a analogia, os neurônios possuem variáveis de entradas (dendrites), uma função matemática que "processa" as entradas, calculando o produto entre os pesos, também chamados de parâmetros, atribuídos arbitrariamente a cada variável e em seguida aplicando uma função não linear no seu "núcleo", e uma saída desse processamento (axioma).
 
@@ -481,12 +481,14 @@ Como exemplo:  “king” (vetor GloVe treinado na wikipedia):
 
 Uma das propriedades interessantes das word-embeddings é que palavras com significados semelhantes tendem a ser agrupadas no mesmo espaço dimensional. 
 
-![](img/king-man-woman-embedding.png
+![](img/king-man-woman-embedding.png)
+
 	 imagem: https://jalammar.github.io/illustrated-word2vec/
 
 Quando construímos este "espaço" com os vetores mapeados, conseguimos capturar algum tipo de relacionamento nesse espaço, seja significado, morfologia, contexto ou algum outro tipo de relacionamento.
 
 ![](img/word-embeddings-2.webp)
+
 
 Em seguida surgiram novas técnicas para agrupamento das palavras, conhecidos como **word embeddings dinâmicos ou contextualizados**, que levam em consideração o contexto da palavra dentro de uma frase. Como exemplo: `ELMO` (2018) e `BERT` (2018). Neste caso, palavras em contextos diferentes podem ter representações diferentes.
 
@@ -604,8 +606,8 @@ Enquanto durante o treinamento de uma rede neural a convolução identifica as r
 
 O conceito de atenção é crucial na arquitetura dos transformers, permitindo ao modelo focar em diferentes partes do texto de entrada, de acordo com a relevância destas partes do texto relacionadas ao problema sendo resolvido.
 
-
 ![](img/transformer_self-attention_visualization.png)
+
 	imagem de http://jalammar.github.io/illustrated-transformer/
 
 
@@ -628,6 +630,7 @@ Vale mencionar a criação de uma startup que foi criada em torno da idéia de c
 A arquitetura de transformers passou a ser largamente utilizada, e surgiram dezenas de modelos como BERT, GPT, PaLM, DALL-E, Stabe Difusion, etc.
 
 ![](img/transformers-timeline.png)
+
 	fonte: https://amatriain.net/blog/transformer-models-an-introduction-and-catalog-2d1e9039f376/
 
 Esses modelos são inicialmente treinados para modelos de linguagem (LLM = large language models), com o objetivo de prever o próximo texto em uma frase, e por esse motivo, são conhecidos como **generativos**.
