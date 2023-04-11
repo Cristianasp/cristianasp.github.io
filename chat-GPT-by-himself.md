@@ -1,4 +1,4 @@
-# Chat-GPT by chat-GPT
+# Chat-GPT by Chat-GPT
 
 # I will give a lecture to some friends that are engineers about chatgpt. Can you help me and list the key points regarding training and inference of your model in a didatic mode?
 
