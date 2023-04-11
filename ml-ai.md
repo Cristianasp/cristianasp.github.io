@@ -2,6 +2,7 @@
 Esse artigo é base para um bate-papo que realizei com alguns professores de uma escola de negócios no Brasil.
 
 ![](img/machine-learning-2.png)
+
 	imagem produzida com inteligência artificial
 
 ---
@@ -70,10 +71,15 @@ Vale observer a grande quantidade de artigos publicados recentemente nos temas a
 ![](img/arxiv2.png)
 
 cs.AI :Artificial inteligence https://arxiv.org/list/cs.AI/recent
+
 cs.CL: Computation and Language https://arxiv.org/list/cs.CL/recent
+
 cs.CV: Vision and Patter Recognition https://arxiv.org/list/cs.CV/recent
+
 cs.HC: Human-Computer Interaction https://arxiv.org/list/cs.HC/recent
+
 cs.LG: Machine Learning https://arxiv.org/list/cs.LG/recent
+
 
 ---
 
@@ -117,6 +123,7 @@ Portanto, para resolver os problemas cima, a abordagem da computação tradicion
 # Como a máquina aprende?
 
 ![](img/DALL-E2023-04.png)
+
 	DALL-e: A futuristic style picture of a man teaching a robot how to build a house.
 
 ### As máquinas podem aprender utilizando várias estratégias, sendo essas as principais:
@@ -153,11 +160,13 @@ Usamos quando queremos resolver esses tipos de problemas:
 Exemplos: agrupar usuários de redes sociais em perfis semelhantes, agrupar noticias em tópicos, agrupar humanos em grupos genéticos, segmentar clientes para ações de marketing, etc.
 
 ![](img/social-network.png)
+
 	"A top view of a social network where each node is a person and each person has a different color"
 
 **Problema do Cocktail Party**: Processamento de áudio para remover sons de fundo, encontrando uma "estrutura" nos dados que desconhecemos.
 
 ![](img/singing.png)
+
 "A vintage image of one man e one woman singing in an antique microphone, each one holding its own microphone"
 
 # Aplicações para Reinforced Learning (Aprendizado por reforço 
@@ -173,11 +182,13 @@ Na ausência de um supervisor, o aluno deve descobrir de forma independente a se
 
 
 ![](img/Reinforcement_learning.png)
+
 	imagem de https://www.synopsys.com/ai/what-is-reinforcement-learning.html
 
 Exemplos de uso muito comuns: robótica e  jogos
 
 ![](img/rl-mario.png)
+
 	imagem: https://www.youtube.com/watch?v=L4KBBAwF_bE
 
 ---
@@ -273,16 +284,21 @@ Underfitting ou high bias (viés alto) ocorre quando a função de estimativa ma
 Overfitting ou high variance (variância alta) ocorre quando a função de estimativa se ajusta demasiadamente aos dados disponíveis, mas não generaliza bem para prever novos dados. Geralmente é causada por uma função complicada que cria muitas curvas e ângulos desnecessários, que são relacionados a dados atípicos.
 
 Nossos dados de treinamento:
+
 ![](img/fastai_overff_73_0.png)
 
 Treinamento com uma função muito simples (underfitting):
+
 ![](img/fastai_overff_77_0.png)
 
 Treinamento com uma função muito complexa (overfitting):
+
 ![](img/fastai_overff_79_0.png)
 
 Um bom treinamento (função ideal e função encontrada):
+
 ![](img/fastai_overff_81_0.png)
+
 
 	imagens extraidas de: https://www.kaggle.com/code/jhoward/getting-started-with-nlp-for-absolute-beginners
 
@@ -322,7 +338,7 @@ O neurônio digital possui diversas variáveis de entrada, uma função de "ativ
 
 ![](img/comparison-nn--human.png)
 
-fonte da imagem: https://www.researchgate.net/publication/339446790_Using_a_Data_Driven_Approach_to_Predict_Waves_Generated_by_Gravity_Driven_Mass_Flows
+	fonte da imagem: https://www.researchgate.net/publication/339446790_Using_a_Data_Driven_Approach_to_Predict_Waves_Generated_by_Gravity_Driven_Mass_Flows
 
 Fazendo a analogia, os neurônios possuem variáveis de entradas (dendrites), uma função matemática que "processa" as entradas, calculando o produto entre os pesos, também chamados de parâmetros, atribuídos arbitrariamente a cada variável e em seguida aplicando uma função não linear no seu "núcleo", e uma saída desse processamento (axioma).
 
@@ -402,6 +418,7 @@ A convolução é uma operação matemática aplicada em redes neurais para extr
 Uma convolução captura a relação entre um pixel e seus pixels vizinhos em uma imagem, aplicando um filtro à imagem original. Esse processo ajuda a identificar a presença de características como bordas ou outros padrões na imagem de entrada, o que pode ser útil em tarefas como reconhecimento de objetos (classificação) em visão computacional. 
 
 ![](img/convolution-animated.gif)
+
 	imagem: https://indiantechwarrior.com/convolution-layers-in-convolutional-neural-network/
 
 O mapa de uma convolução resume as características extraídas e pode ser processado pelas camadas subsequentes da rede neural para extrair novas características mais complexas. Essa extração hierárquica das características melhora a capacidade da rede de classificar ou detectar com precisão objetos em imagens.
@@ -411,13 +428,13 @@ O mapa de uma convolução resume as características extraídas e pode ser proc
 
 Nas imagens abaixo é possível visualizar o que cada camada da rede neural está identificando como um padrão. A cada camada, os padrões se tornam mais complexos, pois podem se beneficiar do aprendizado das camandas anteriores.
 
-![](img/@ 05 Portifolio/Blog/img/fastai-convolutions-01.png)
+![](img/fastai-convolutions-01.png)
 
-![](img/@ 05 Portifolio/Blog/img/fastai-convolutions-02.png)
+![](img/fastai-convolutions-02.png)
 
-![](img/@ 05 Portifolio/Blog/img/fastai-convolutions-03.png)
+![](img/fastai-convolutions-03.png)
 
-![](img/@ 05 Portifolio/Blog/img/fastai-convolutions-04.png)
+![](img/fastai-convolutions-04.png)
 
 	imagens de https://github.com/fastai/fastbook/blob/master/01_intro.ipynb
 
@@ -464,12 +481,12 @@ Como exemplo:  “king” (vetor GloVe treinado na wikipedia):
 
 Uma das propriedades interessantes das word-embeddings é que palavras com significados semelhantes tendem a ser agrupadas no mesmo espaço dimensional. 
 
-![](img/king-man-woman-embedding.png)
+![](img/king-man-woman-embedding.png
 	 imagem: https://jalammar.github.io/illustrated-word2vec/
 
 Quando construímos este "espaço" com os vetores mapeados, conseguimos capturar algum tipo de relacionamento nesse espaço, seja significado, morfologia, contexto ou algum outro tipo de relacionamento.
 
-![](img/@ 05 Portifolio/Blog/img/word-embeddings-2.webp)
+![](img/word-embeddings-2.webp)
 
 Em seguida surgiram novas técnicas para agrupamento das palavras, conhecidos como **word embeddings dinâmicos ou contextualizados**, que levam em consideração o contexto da palavra dentro de uma frase. Como exemplo: `ELMO` (2018) e `BERT` (2018). Neste caso, palavras em contextos diferentes podem ter representações diferentes.
 
@@ -588,8 +605,7 @@ Enquanto durante o treinamento de uma rede neural a convolução identifica as r
 O conceito de atenção é crucial na arquitetura dos transformers, permitindo ao modelo focar em diferentes partes do texto de entrada, de acordo com a relevância destas partes do texto relacionadas ao problema sendo resolvido.
 
 
-![](img/@ 05 Portifolio/Blog/img/attention-head.png)
-![](img/@ 05 Portifolio/Blog/img/transformer_self-attention_visualization.png)
+![](img/transformer_self-attention_visualization.png)
 	imagem de http://jalammar.github.io/illustrated-transformer/
 
 
