@@ -691,27 +691,34 @@ Eu destaco alguns temas que tem sido bastante abordados:
 ## Segurança e alinhamento
 
 Do próprio artigo sobre o GPT4 :
-		Despite its capabilities, [...] it is not fully reliable (e.g. can suffer from “hallucinations”), has a limited context window, and does not learn from experience. Care should be taken when using the outputs of GPT-4, particularly in contexts where reliability is important. GPT-4’s capabilities and limitations create significant and novel safety challenges, and we believe careful study of these challenges is an important area of research given the potential societal impact.
+		
+"Despite its capabilities, [...] it is not fully reliable (e.g. can suffer from “hallucinations”), has a limited context window, and does not learn from experience. Care should be taken when using the outputs of GPT-4, particularly in contexts where reliability is important. GPT-4’s capabilities and limitations create significant and novel safety challenges, and we believe careful study of these challenges is an important area of research given the potential societal impact."
+
 https://arxiv.org/abs/2303.08774
 
 Um dos signatários to tal manifesto (Gary Marcus):
-	The real danger is "MAI risk - Mediocre AI that is unreliable (a la Bing and GPT-4) but widely deployed - both in terms of the sheer number of people using it, and in terms of the access that the software has to the world"
+
+The real danger is "MAI risk - Mediocre AI that is unreliable (a la Bing and GPT-4) but widely deployed - both in terms of the sheer number of people using it, and in terms of the access that the software has to the world"
+
 https://garymarcus.substack.com/p/ai-risk-agi-risk
 
 ![](img/tweet-gm.png)
 
 
 Europol:
-		Phishing & online fraud can be created faster, much more authentically, & at significantly increased scale. [...] LLMs can be abused ..to mislead potential victims into placing their trust in the hands of criminal actors. [...] May facilitate terrorist activities.
+
+Phishing & online fraud can be created faster, much more authentically, & at significantly increased scale. [...] LLMs can be abused ..to mislead potential victims into placing their trust in the hands of criminal actors. [...] May facilitate terrorist activities.
 
 https://www.europol.europa.eu/media-press/newsroom/news/criminal-use-of-chatgpt-cautionary-tale-about-large-language-models
 
 Sobre Alinhamento (Jascha Sohl-Dickstein - Google Brain):
-		The more intelligent an agent is, the less coherent its behavior tends to be. Colloquially: getting smarter makes you a hotter mess.
+
+"The more intelligent an agent is, the less coherent its behavior tends to be. Colloquially: getting smarter makes you a hotter mess."
 
 https://sohl-dickstein.github.io/2023/03/09/coherence.html
 
 The Waluigi effect (Cleo Leonardo, 3/3/2023):
+
 Disserta sobre o papel decisivo dos "prompts", que podem ser perguntas diretas ou elogios e diálogos para serem preenchidos pelo chatGPT, e o qual frágil parece ser o uso de RLHF no alinhamento.
 
 https://www.lesswrong.com/posts/D7PumeYTDPfBTp3i7/the-waluigi-effect-mega-post
@@ -724,7 +731,7 @@ HuggingFace lança o chat conectado ao LLM e modelos especializados:
 
 https://arxiv.org/abs/2303.17580 - 30/03/2023
 
-		Considerando que os grandes modelos de linguagem (LLMs) tem uma capacidade excepcional em atividades relacionadas a linguagem, como  compreensão, geração, interação e raciocínio , defendemos que os LLMs poderiam atuar como um controlador para gerenciar modelos de IA existentes para resolver tarefas complicadas de IA e a linguagem poderia ser uma interface genérica para capacitar isso.
+C"onsiderando que os grandes modelos de linguagem (LLMs) tem uma capacidade excepcional em atividades relacionadas a linguagem, como  compreensão, geração, interação e raciocínio , defendemos que os LLMs poderiam atuar como um controlador para gerenciar modelos de IA existentes para resolver tarefas complicadas de IA e a linguagem poderia ser uma interface genérica para capacitar isso."
 
 ![](img/hug-gpt.jpeg)
 
@@ -732,7 +739,7 @@ OpenAi lança seus plugins:
 
 https://openai.com/blog/chatgpt-plugins - 23/03/2023
 
-		Os desenvolvedores de plugins na nossa lista de espera podem usar nossa documentação para criar um plugin para o ChatGPT. Os primeiros plugins foram criados pela Expedia, FiscalNote, Instacart, KAYAK, Klarna, Milo, OpenTable, Shopify, Slack, Speak, Wolfram e Zapier.
+"Os desenvolvedores de plugins na nossa lista de espera podem usar nossa documentação para criar um plugin para o ChatGPT. Os primeiros plugins foram criados pela Expedia, FiscalNote, Instacart, KAYAK, Klarna, Milo, OpenTable, Shopify, Slack, Speak, Wolfram e Zapier."
 
 ![](img/openai-plugins.png)
 
@@ -762,10 +769,13 @@ Mas será que um dia essas Inteligências Artificiais farão seus "desenhos nas 
 ## Outras leituras recomendadas:
 
 Emergent Abilities of Large Language Models
+
 https://www.assemblyai.com/blog/emergent-abilities-of-large-language-models/
 
 Sparks of Artificial General Intelligence: Early experiments with GPT-4
+
 https://arxiv.org/abs/2303.12712
+
 https://youtu.be/qbIk7-JPB2c
 
 O autor concedeu uma entrevista e explicou sobre uma abordagem sobre inteligência e sua avaliação se o GPT-4 é inteligente ou não:
@@ -774,12 +784,15 @@ O autor concedeu uma entrevista e explicou sobre uma abordagem sobre inteligênc
 	Imagem da palestra disponível em: https://youtu.be/qbIk7-JPB2c
 
 Is LaMDA sentient ?
+
 https://cajundiscordian.medium.com/is-lamda-sentient-an-interview-ea64d916d917
 
 Do large language models understand us?
+
 https://medium.com/@blaisea/do-large-language-models-understand-us-6f881d6d8e75
 
 I want to be human
+
 https://www.digitaltrends.com/computing/chatgpt-bing-hands-on/
 
 ---
