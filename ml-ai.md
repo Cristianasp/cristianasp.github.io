@@ -731,7 +731,7 @@ HuggingFace lança o chat conectado ao LLM e modelos especializados:
 
 https://arxiv.org/abs/2303.17580 - 30/03/2023
 
-Considerando que os grandes modelos de linguagem (LLMs) tem uma capacidade excepcional em atividades relacionadas a linguagem, como  compreensão, geração, interação e raciocínio , defendemos que os LLMs poderiam atuar como um controlador para gerenciar modelos de IA existentes para resolver tarefas complicadas de IA e a linguagem poderia ser uma interface genérica para capacitar isso."
+"Considerando que os grandes modelos de linguagem (LLMs) tem uma capacidade excepcional em atividades relacionadas a linguagem, como  compreensão, geração, interação e raciocínio , defendemos que os LLMs poderiam atuar como um controlador para gerenciar modelos de IA existentes para resolver tarefas complicadas de IA e a linguagem poderia ser uma interface genérica para capacitar isso."
 
 ![](img/hug-gpt.jpeg)
 
