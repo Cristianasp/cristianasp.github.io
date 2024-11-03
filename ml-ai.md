@@ -1,6 +1,6 @@
 # Um apanhado de Machine Learning & Artificial Inteligence 
 
-Esse artigo é base para um bate-papo que realizei com alguns professores de uma escola de negócios no Brasil.
+Esse artigo é base para um bate-papo que realizei com alguns professores de uma escola de negócios no Brasil em Abril-2023.
 
 ![](img/machine-learning-2.png)
 
