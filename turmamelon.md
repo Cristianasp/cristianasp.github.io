@@ -18,6 +18,8 @@ To solve this problem I have created Turmamelon. I spent a lot of time thinking 
 
 In a nutshell, Turmamelon can store descriptions and links that can be arranged in boards and topics. User can share a board with another user, that can read-only or edit. All links are one click-away. You can access the [home page here](https://www.turmamelon.com).
 
+![](https://www.turmamelon.com/static/img/board-example.png)
+
 ## 💻 My programming framework
 
 As a typical python programmer, I am avoiding javascript as much as I can. Following HTMX on X for a while, I decided to give it a try and implement my solution using fastapi + jinja-templates + htmx + html + css + minimum-javascript. For data I am using mongoDB.
@@ -39,6 +41,7 @@ For deployment, I am still using Heroku's eco containers, because I can pay a fe
 In the last release, I also upgraded from python 3.8 to python 3.10. While reviewing my Dockerfile, I changed the base image and did not pay attention to the increase of size of my container, it was 317 Mb and increased to 1,17Gb. I eventually noticed it and found a lighter python base image. That would impact startup and deployment speed and resource efficiency. 800 Mb of unnecessary content...
 
 ![](img/docker-base-image.png)
+
 So details matter...
 
 Last, I configured my domain DNS entries and did the necessary configurations in Heroku, that gave me a nice and free Let's encrypt SSL certificate.
