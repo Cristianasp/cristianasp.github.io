@@ -4,6 +4,8 @@
 
 # TURMAMELON
 
+📅 November, 2024
+
 ## 🤯 My nightmare
 
 I am using Microsoft Teams for work and it has been a nightmare for me. Everyone who worked 20 years ago know very well the "email framework" for organizing work: using folders, flags, marking as read, unread, creating filters etc. 
