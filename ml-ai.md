@@ -1,5 +1,7 @@
 # Um apanhado de Machine Learning & Artificial Inteligence 
 
+📅 Abril, 2023
+
 Esse artigo é base para um bate-papo que realizei com alguns professores de uma escola de negócios no Brasil em Abril-2023.
 
 ![](img/machine-learning-2.png)
@@ -400,7 +402,7 @@ uso das GPUs
 Big techs: Google, Facebook, Apple, etc
 Criação dos CHIPS especializados: Tensor(Google), Tesla (NVIDIA), Intel, Amazon, Microsoft, Tesla.
 
-Concurso Imagenet
+## Concurso Imagenet
 
 ![](img/imagenet-error.png)
 
@@ -559,7 +561,7 @@ Neste caso, também é necessária uma grande quantidade de dados de treinamento
 
 Texto criado pelo chatGPT em inglês e traduzido por ele mesmo ;-)
 
-Modelos não baseados em redes neurais:
+## Modelos não baseados em redes neurais:
 
 Bag-of-Words: Uma maneira simples e eficaz de representar dados de texto, onde cada documento ou sentença é representado como um saco de palavras, onde a frequência de cada palavra é usada como característica. Isso pode ser usado para tarefas como análise de sentimentos, classificação de documentos e modelagem de tópicos.
 
@@ -575,7 +577,7 @@ Naive Bayes: Um modelo probabilístico simples e eficaz que pode ser usado para 
 
 Modelos Ocultos de Markov (HMMs): Um tipo de modelo probabilístico usado para modelar sequências de dados em que o estado subjacente não é diretamente observável, mas é assumido como gerador dos dados observados. HMMs podem ser usados para uma variedade de tarefas de PNL, como marcação de partes do discurso, reconhecimento de entidades nomeadas e reconhecimento de fala.
 
-Modelos baseados em redes neurais:
+## Modelos baseados em redes neurais:
 
 Redes Neurais Recorrentes (RNNs): Um tipo de rede neural que é bem adequado para processar dados sequenciais, como texto. Eles são comumente usados ​​para tarefas como modelagem de linguagem, tradução automática e análise de sentimento.
 
@@ -673,8 +675,11 @@ Perguntei para o chatGPT como é seu processo de treinamento e inferência e ele
 # E o que nos espera?
 
 Em 30/11/2022, a OpenAI lançou o chatGPT. 
+
 Em 01/02/2023, o chatGPT Plus. 
+
 Em 14/03/2023, o GPT-4.
+
 Em 14/03/2023, o Bing Chat da Microsoft passou a usar o GPT-4.
 
 EM 24/02/2023, a Meta lançou o LLaMA (Large Language Model Meta AI)
