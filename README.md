@@ -15,6 +15,12 @@ Here is some stuff that I have been doing lately:
 
 ---
 
+👉👉 An advisor that talks psalms.(Coming soon) --- 🇺🇸
+
+🏷️ vector-database, mongoDB, RAG, python, fastapi
+
+---
+
 
 👉👉 [Turmamelon : a web service for bookmarks, made from scratch by myself in Python](turmamelon) --- 🇺🇸
 
