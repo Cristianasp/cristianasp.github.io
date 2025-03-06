@@ -1,9 +1,5 @@
 # cristianasp.github.io
 
-```python
-🖨 print("hello world!")
-```
-
 ## My blog about my projects and experiences. 🤓
 
 ### From a human 🤗 to other humans. 🤗
@@ -15,9 +11,11 @@ Here is some stuff that I have been doing lately:
 
 ---
 
-👉👉 An advisor that talks psalms.(Coming soon) --- 🇺🇸
+👉👉 [A Psalm Counselor using RAG](psalms-with-RAG) --- 🇺🇸
 
-🏷️ vector-database, mongoDB, RAG, python, fastapi
+🏷️ RAG, vector-database, mongoDB, python, fastapi
+
+🌐 https://www.superatrix.com
 
 ---
 
@@ -26,7 +24,7 @@ Here is some stuff that I have been doing lately:
 
 🏷️ python, fastapi, jinja, htmx, css, html, noSQL, mongoDB, javascript, sentry, loguru, docker, heroku
 
-🌐 http://www.turmamelon.com
+🌐 https://www.turmamelon.com
 
 ---
 
