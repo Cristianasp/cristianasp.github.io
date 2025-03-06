@@ -3,7 +3,9 @@
 ---
 
 # Barcode Reader API
-## 
+
+📅 February,  2023
+
 A Python wrapper of [ZXing library](https://github.com/zxing/zxing)
 
 A python API that wraps a java program that extracts barcode from images.

@@ -4,6 +4,8 @@
 
 # NLP WITH SPACY
 
+📅 Março, 2022
+
 ## Curso processamento avançado de Linguagem Natural com a biblioteca spaCy.
 
 `#PLN` `#NLP` `#SPACY_IO`
