@@ -6,18 +6,20 @@
 
 📅 March,  2025
 
-Okay, so on November 2024, I took the **"5 day generative AI Intensive Course"** from Kaggle and it was really nice to update my knowledge about what happened in 20 months since Chat-GPT4, when I wrote [this article](ml-ai-english.md).
+Okay, so on November 2024, I took the **"5 day Generative AI Intensive Course"** from Kaggle and it was really nice to update my knowledge about what happened in 20 months since Chat-GPT4, when I wrote [this article](ml-ai-english.md).
 
-By the way, here is the link to the course, if you are interested:
+And here is the link to the course, if you are interested:
+
 https://www.kaggle.com/discussions/general/545082
 
 One of the topics that I most liked was RAG (Retrieveal Augmented Generation), so now I will briefly explain it and how I made a Psalm Counselor using RAG.
 
 ## RAG
 
-On a nutshell, RAG - Retrieval Augmented Search was created to enable the use of general purpose LLMs to answer questions related to more specific domains or novel external data.
+On a nutshell, RAG - Retrieval Augmented Search - was created to enable the use of general purpose LLMs to answer questions related to more specific domains or novel external data.
 
-With the help of Chat-GPT, the motivation and activities for RAG are:
+Chat-GPT explains us the motivation and mains activities of RAG: 
+
 ### **Motivation for RAG**
 
 LLMs, like GPT, have a fundamental limitation:
@@ -50,23 +52,24 @@ RAG **addresses this by allowing the model to fetch relevant documents dynamical
 
 ## My Proof of Concept
 
-I wanted to build an agent that answers questions using psalms as inspiration.
+I wanted to build an agent that answers questions using Psalms as inspiration.
+
 ## The data
 
-The first step was to prepare the data. I got the psalms from King James Bible from this dataset (https://www.kaggle.com/datasets/kk99807/the-king-james-bible). Since the KJ Bible is in ancient modern english, I updated all the verses to modern english, with the help of Gemini and ChatGPT, you can check how I did it in this notebook (https://www.kaggle.com/code/crisparada/psalms-translating-from-ancient-to-modern-english)
+The first step was to prepare the data. I got the Psalms from King James Bible from [this dataset](https://www.kaggle.com/datasets/kk99807/the-king-james-bible). Since the KJ Bible is in ancient modern english, I updated all the verses to modern english, with the help of Gemini and ChatGPT, you can check how I did it in [this notebook](https://www.kaggle.com/code/crisparada/psalms-translating-from-ancient-to-modern-english).
 
 ## Indexing the data into a vector database
 
-With the dataset ready, next step is to "upload" it to a vector database. 
+With the dataset ready, next step was to "upload" it to a vector database. 
 
 This is the step of transforming text data to vector embeddings, that basically are a numeric representation of the text.
 
 For embedding, I used Google's Gemini GenAI.Embedding API with the 'text-embedding-004' model. Here is link of the documentation:
-https://ai.google.dev/gemini-api/docs/models/gemini
+https://ai.google.dev/gemini-api/docs/models/gemini.
 
-Regarding vector databases, I have used Chroma from Google in the genai course, but at the present date it's in early version and there is no cloud implementation that my app could connect to. Good news is that I already use mongoDB and I was able to launch a vector database in the free tier. 
+Regarding vector databases, I have used Chroma from Google in the GenAI course, but at the present date it's in early version and there is no cloud implementation that my app could connect to. Good news is that I already use mongoDB and I was able to launch a vector database in the free tier. 
 
-It was very easy to embbed and ingest:
+It was very easy to embbed and ingest data into the vector database:
 
 ``` python
 for text, psalm, tag in zip (documents, psalms,tags):
@@ -74,7 +77,7 @@ for text, psalm, tag in zip (documents, psalms,tags):
    collection.insert_one({ "psalm_number": psalm, "text": text, "embedding": embedding, "tag" : tag })
 ```
 
-After that, I had to create the vector index. I did it manually directly in Atlas website, but basically is this :
+After that, I had to create the vector index. I did it manually directly in Atlas website. Basically, this is the necessary configuration:
 
 ```
 "fields": [
@@ -90,23 +93,23 @@ type="vectorSearch",
   ```
      
 
-This is the link to [MongoDB RAG with vector search documentation](https://www.mongodb.com/pt-br/docs/atlas/atlas-vector-search/rag), and BTW there is a cool diagram about RAG:
+Here is the link to [MongoDB RAG with vector search documentation](https://www.mongodb.com/pt-br/docs/atlas/atlas-vector-search/rag), and by the way, there is a cool diagram about RAG:
 
 ![](https://www.mongodb.com/pt-br/docs/atlas/images/rag-flowchart.svg)
 
 ## The flow for retrieval and generation
 
-The psalm counselor answers user's question if there is a psalm related to the question. If the question is not related to any psalm, it replies with a general answer, known as a "fallback answer".
+The Psalm Counselor answers user's question if there is a psalm related to the question. If the user's question is not related to any psalm, it replies with a general answer, known as a "fallback answer".
 
 The goal is to restrain answers to the specific domain, in this case, to psalms.
 
-The strategy is: after querying the user's question (the embedded version, of course) to the vector database, if the query returns a low match score, the psalm counselor would fallback to a general answer. Deciding what is the minimum score is key to a successful counselor. I set it to 0.48
+The strategy is: after querying the user's question (the embedded version, of course) to the vector database, if the query returns a low match score, the Psalm Counselor would fallback to a general answer. Deciding what is the minimum score is key to a successful counselor. I set it to 0.48
 
-This is also good for not consuming the free tier usage of Gemini with inappropriate questions.
+This strategy is good for not consuming Gemini's API with inappropriate or irrelevant questions.
 
-Next is prompting the Gemini LLM using the related psalm.
+Next step is prompting the Gemini LLM using the related psalm.
 
-Prompting is 20% inspiration and 80% expiration. Had to try several strategies and test to end up with a good instruction to Gemini. Special attention to prompt injection, people can be so creative!
+Prompting is 20% inspiration and 80% expiration. Had to try several strategies and test them to find a good instruction to Gemini. Special attention to prompt injection, people can be so creative!
 
 Backend was ready and working. The tech stuff:
 - fastapi
@@ -123,10 +126,12 @@ I noticed that I could ask questions in different languages and the Psalm Counse
 I made a little improvement and used a language detector to identify the language of the question. After that, I would instruct the LLM to translate his answer to the same language.  All this in the same prompt, so no extra resources used. 
 
 To accomplish this, I used Google's mediapipe library.
-https://ai.google.dev/edge/mediapipe/solutions/text/language_detector/python
-## and.. a lean site.
 
-Now it is time to make an interface so everybody can try it! And this is always the harder part for me... because ux design always takes a lot of time!
+https://ai.google.dev/edge/mediapipe/solutions/text/language_detector/python
+
+## And.. a lean site.
+
+Then came the time to make an interface so everybody could try it! And this is always the harder part for me... because ux design always takes a lot of time!
 
 I made a one page light and lean site, using my favorite stack: 
 - fastapi
@@ -145,6 +150,12 @@ I usually use Alpine Linux images, but for this specific case, due to jaxlib com
 
 
 ## 😎 The final result? I liked it!
+
+Wanna try ? 
+
+Here: https://www.superatrix.com
+
+Please remember that the app is sleeping, so it make take some time to start...
 
 ## 🔎 My Conclusion:  LLMs are power without control. Agents are beautiful and the future of AI applications.
 
