@@ -18,7 +18,7 @@ One of the topics that I most liked was RAG (Retrieveal Augmented Generation), s
 
 On a nutshell, RAG - Retrieval Augmented Search - was created to enable the use of general purpose LLMs to answer questions related to more specific domains or novel external data.
 
-Chat-GPT explains us the motivation and mains activities of RAG: 
+Chat-GPT explains us the motivation and main activities of RAG: 
 
 ### **Motivation for RAG**
 
@@ -65,6 +65,7 @@ With the dataset ready, next step was to "upload" it to a vector database.
 This is the step of transforming text data to vector embeddings, that basically are a numeric representation of the text.
 
 For embedding, I used Google's Gemini GenAI.Embedding API with the 'text-embedding-004' model. Here is link of the documentation:
+
 https://ai.google.dev/gemini-api/docs/models/gemini.
 
 Regarding vector databases, I have used Chroma from Google in the GenAI course, but at the present date it's in early version and there is no cloud implementation that my app could connect to. Good news is that I already use mongoDB and I was able to launch a vector database in the free tier. 
@@ -91,7 +92,6 @@ After that, I had to create the vector index. I did it manually directly in Atla
 name="vector_index",
 type="vectorSearch",
   ```
-     
 
 Here is the link to [MongoDB RAG with vector search documentation](https://www.mongodb.com/pt-br/docs/atlas/atlas-vector-search/rag), and by the way, there is a cool diagram about RAG:
 
@@ -155,7 +155,7 @@ Wanna try ?
 
 Here: https://www.superatrix.com
 
-Please remember that the app is sleeping, so it make take some time to start...
+Please be aware that the app is sleeping, so it make take some time to start...
 
 ## 🔎 My Conclusion:  LLMs are power without control. Agents are beautiful and the future of AI applications.
 
