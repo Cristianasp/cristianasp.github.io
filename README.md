@@ -1,6 +1,6 @@
 # cristianasp.github.io
 
-## My blog about my projects and experiences. 🤓
+## A blog about my projects and experiences. 🤓
 
 ### From a human 🤗 to other humans. 🤗
 
@@ -8,6 +8,8 @@
 
 Here is some stuff that I have been doing lately:
 
+
+---
 
 ---
 
@@ -19,6 +21,7 @@ Here is some stuff that I have been doing lately:
 
 ---
 
+---
 
 👉👉 [Turmamelon : a web service for bookmarks, made from scratch by myself in Python](turmamelon) --- 🇺🇸
 
@@ -28,6 +31,7 @@ Here is some stuff that I have been doing lately:
 
 ---
 
+---
 
 👉👉 [ML-AI : Um apanhado sobre Machine Learning e Inteligência Artificial](ml-ai) --- 🇧🇷
 
@@ -40,9 +44,13 @@ Here is some stuff that I have been doing lately:
 
 ---
 
+---
+
 👉👉 [Python : A Barcode Reader API](fastapi-java) --- 🇺🇸
 
 Tags: python, java, fastapi, gunicorn, sentry, loguru, docker, heroku
+
+---
 
 ---
 
@@ -54,11 +62,15 @@ Tags: python, java, fastapi, gunicorn, sentry, loguru, docker, heroku
 
 ---
 
+---
+
 👉👉 [Kaggle: Brazilian Cities Dataset ](dataset-brazilian-cities) --- 🇧🇷
 
 🏷️ dataset, python, pandas
 
 🌐 https://www.kaggle.com/datasets/crisparada/brazilian-cities
+
+---
 
 ---
 
@@ -70,6 +82,8 @@ Tags: python, java, fastapi, gunicorn, sentry, loguru, docker, heroku
 
 
 🌐 https://github.com/Cristianasp/spacy
+
+---
 
 ---
 
